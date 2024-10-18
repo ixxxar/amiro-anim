@@ -43,7 +43,7 @@ function draw() {
   pg.rotateX(radians(-30)); 
 
   if (mouseX < 0 || mouseX > width || mouseY < 0 || mouseY > height) {
-    currentAngleY += 0.02; //тут меняется скорость, на демо была 0.1
+    currentAngleY += 0.04; //тут меняется скорость, на демо была 0.1
     currentAngleX = lerp(currentAngleX, 0, 0.1); 
     currentAngleZ = lerp(currentAngleZ, 0, 0.1); 
   } else {
