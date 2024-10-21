@@ -5,7 +5,8 @@
 <body>
     <script>const interval = setInterval(() => {
     const el = document.querySelector('#p5_loading');
-    if(el) el.remove()
+    if(el) el.style.display = 'none';
+    if(el) el.remove();
     }, 100)</script>
 </body>
 </html>
